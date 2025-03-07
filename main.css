@@ -1,8 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #f4f4f4;
 }
 
 /* Bloco de estilizzação de cabeçalho */
+header{
+    background-color: #333333;
+    color: #ffb855;
+    text-align: center;
+    padding: 1rem 0;
+}
