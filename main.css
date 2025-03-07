@@ -5,10 +5,26 @@ body{
     background-color: #f4f4f4;
 }
 
-/* Bloco de estilizzação de cabeçalho */
+/* Bloco de estilização de cabeçalho */
 header{
     background-color: #333333;
     color: #ffb855;
     text-align: center;
     padding: 1rem 0;
 }
+
+.banner-content{
+    width: 80%;
+}
+
+.banner h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Estilização de menu de navegação */
