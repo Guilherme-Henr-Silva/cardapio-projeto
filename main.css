@@ -47,7 +47,7 @@ main{
     margin: 2rem auto;
 }
 
-/* Estilização das seções da pagina compostas por Produtos, Bebidas, Pedidos e Contato */
+/* Estilização das sessões da pagina compostas por Produtos, Bebidas, Pedidos e Contato */
 
 .categoria{
     margin-bottom: 2rem;
@@ -84,6 +84,14 @@ main{
     padding: 0.5rem 1rem;
     border-radius: 30px;
     cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333333;
+    color: #fff;
+    font-weight: bold;
 }
 
 
