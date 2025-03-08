@@ -28,3 +28,16 @@ header{
 }
 
 /* Estilização de menu de navegação */
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ffb855;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: #ffcd88;
+}
