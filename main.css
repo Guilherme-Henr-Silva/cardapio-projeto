@@ -143,6 +143,36 @@ main{
     margin-bottom: 1rem;
 }
 
+#pedido{
+    background-color: #e0e0e0;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#lista-pedido{
+    list-style: none;
+    padding: 0;
+}
+
+#contato{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.redes-sociais a{
+    display: inline-block;
+    background-color: #ffb855;
+    color: #000000;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+.redes-sociais :hover{
+    background-color: #ffcd88;
+}
+
 footer{
     text-align: center;
     padding: 1rem 0;
