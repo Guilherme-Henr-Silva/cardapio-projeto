@@ -44,5 +44,10 @@ const botaoFinalizarPedido = document.getElementById("finalizar-pedido");
 
 // Adiciona evento de clique no botão de Finalizar Pedido
 botaoFinalizarPedido.addEventListener("click", () => {
-    alert("Pedido realizado com sucesso(Simulação)");
+    alert("Pedido realizado com sucesso(Simulação) - " + (totalElemento.textContent = `Total: R$ ${total.toFixed(2)}`));
+    // Para limpar o campo após a mensagem de sucesso
+    listaPedido.innerHTML = "";
+    total = 0;
+    totalElemento.textContent = `Total: R$ ${total.toFixed(2)}`;
 });
+
